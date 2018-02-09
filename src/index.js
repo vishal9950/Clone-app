@@ -1,3 +1,3 @@
-import render from './index.jsx';
+import render from './App';
 
 render();

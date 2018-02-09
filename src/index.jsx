@@ -1,14 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
+import Body from './body';
 
-const Wrapper = () => <div className="wrapper" />;
+const Wrapper = () => <div className="wrapper"><Body /></div>;
 
-const render = () => {
-  ReactDOM.render(
-    <Wrapper />,
-    document.getElementById('root'),
-  );
-};
+// const render = () => {
+//   ReactDOM.render(
+//     <Wrapper />,
+//     document.getElementById('root'),
+//   );
+// };
 
-export default render;
+export default Wrapper;
