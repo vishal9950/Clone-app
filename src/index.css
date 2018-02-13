@@ -10,6 +10,62 @@
 
 .cont {
     background-color: #52bad1;
-    height: 542px;
+    padding-top: 40px;
+    height: 502px;
     width: 667px;
+    box-shadow: -8px 8px 16px #c7c7c7;
+}
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(./assets/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+
+.content {
+    margin-top: 30px; 
+}
+
+.heading {
+    font-family: Roboto-Bold;
+    margin-left: 30px;
+    text-align: left;
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+
+
+.material-icons {
+    font-size: 40px;
+    float: right;
+    margin-right: 50px;
+}
+
+.left {
+    width: 50%;
+    color: #ffffff;
+    float: left;
+    margin-left: 30px;
+    font-family: Roboto-Regular;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.right {
+    width: 50%;
+    padding: 10px;
+    margin-top: -55px;
+    color: #ffffff;
+    float: right;
+    margin-right: -40px;
+    margin-bottom: 20px;
+}
+
+.no-show {
+    color: #52bad1;
 }
