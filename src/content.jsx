@@ -9,15 +9,21 @@ const Content = () => (
     <div className="right"><i className="material-icons">trending_up</i></div>
     <div>
       <div className="left">#adminbsb</div>
-      <div className="right"><span className="no-show"><i className="material-icons">trending_up</i></span></div>
+      <div className="right">
+        <span className="no-show"><i className="material-icons">trending_up</i></span>
+      </div>
     </div>
     <div>
       <div className="left">#freeadmintemplate</div>
-      <div className="right"><span className="no-show"><i className="material-icons">trending_up</i></span></div>
+      <div className="right">
+        <span className="no-show"><i className="material-icons">trending_up</i></span>
+      </div>
     </div>
     <div>
       <div className="left">#bootstraptemplate</div>
-      <div className="right"><span className="no-show"><i className="material-icons">trending_up</i></span></div>
+      <div className="right">
+        <span className="no-show"><i className="material-icons">trending_up</i></span>
+      </div>
     </div>
     <div>
       <div className="left">#freehtmltemplate</div>
